@@ -1,7 +1,7 @@
-package main
+package sayHi
 
 import "fmt"
 
-func hey() {
+func Hey() {
 	fmt.Println("Hey!")
 }

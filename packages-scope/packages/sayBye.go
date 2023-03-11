@@ -1,7 +1,7 @@
-package main
+package sayBye
 
 import "fmt"
 
-func bye() {
+func Bye() {
 	fmt.Println("bye!")
 }
