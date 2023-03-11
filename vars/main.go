@@ -106,4 +106,17 @@ func main() {
 	// var kl = 6
 	// fmt.Println(kl)
 	// result === kl redeclared in this block error
+
+	var myName = "AmirAli"
+	fmt.Println("my name is:", myName, myName)
+
+	var sum int
+	other1, other2 := 1, 5
+	fmt.Println(other1, other2)
+	fmt.Println("sum 1:", sum)
+
+	other3, other2 := 3, 10
+	fmt.Println(other3, other2)
+	sum = other1 + other2
+	fmt.Println("sum 2:", sum)
 }
