@@ -5,6 +5,10 @@ import (
 	"strings"
 )
 
+func sayHi() {
+	fmt.Println("Hello!!")
+}
+
 func main() {
 	// int age = 10; // c++ way
 	// int
@@ -119,4 +123,6 @@ func main() {
 	fmt.Println(other3, other2)
 	sum = other1 + other2
 	fmt.Println("sum 2:", sum)
+
+	sayHi()
 }
