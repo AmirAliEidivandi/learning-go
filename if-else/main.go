@@ -17,7 +17,7 @@ func role(s string) string {
 }
 
 func average(a, b, c int) float32 {
-	return float32(a + b + c) / 3
+	return float32(a+b+c) / 3
 }
 
 func main() {

@@ -10,7 +10,7 @@ func main() {
 
 	shoppingList["eggs"] += 1
 	fmt.Println(shoppingList)
-	
+
 	delete(shoppingList, "milk")
 	fmt.Println("Milk deleted, new list:", shoppingList)
 	fmt.Println("need", shoppingList["eggs"], "eggs")

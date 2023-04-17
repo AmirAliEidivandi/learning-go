@@ -11,8 +11,8 @@ func price() int {
 }
 
 const (
-	Economy = 0
-	Business = 1
+	Economy    = 0
+	Business   = 1
 	FirstClass = 2
 )
 
@@ -54,7 +54,7 @@ func main() {
 	case result < 10:
 		fmt.Println("<10")
 	}
-	
+
 	// case list
 	switch x {
 	case 1, 2, 3:

@@ -95,9 +95,9 @@ func main() {
 	fmt.Println(x, strr)
 
 	var (
-		y int = 534
+		y int    = 534
 		n string = "sample"
-		g = 432432
+		g        = 432432
 	)
 	fmt.Println(y, n, g)
 
