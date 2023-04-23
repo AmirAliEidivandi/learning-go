@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type Player struct {
-	name string
+	name              string
 	health, maxHealth uint
 	energy, maxEnergy uint
 }
@@ -18,7 +18,7 @@ func (player *Player) addHealth(amount uint) {
 }
 
 func (player *Player) applyDamage(amount uint) {
-	if player.health - amount > player.health {
+	if player.health-amount > player.health {
 		player.health = 0
 	} else {
 		player.health -= amount
@@ -37,7 +37,7 @@ func (player *Player) addEnergy(amount uint) {
 }
 
 func (player *Player) consumeEnergy(amount uint) {
-	if player.energy - amount > player.energy {
+	if player.energy-amount > player.energy {
 		player.energy = 0
 	} else {
 		player.energy -= amount
@@ -48,10 +48,10 @@ func (player *Player) consumeEnergy(amount uint) {
 
 func main() {
 	player := Player{
-		name: "AmirAli",
-		health: 100,
+		name:      "AmirAli",
+		health:    100,
 		maxHealth: 100,
-		energy: 500,
+		energy:    500,
 		maxEnergy: 500,
 	}
 
